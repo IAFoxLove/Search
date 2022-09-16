@@ -1,14 +1,14 @@
 [
   {
-    "name": "AFoxHome",
+    "name": "Home",
     "url": "https://i.afox.love",
-    "icon": "fab fa-pinterest",
+    "icon": "fa-brands fa-firefox",
     "color": "89A9D1"
   },
   {
-    "name": "AFoxBloG",
+    "name": "BloG",
     "url": "https://blog.afox.love",
-    "icon": "fab fa-airbnb",
+    "icon": "fa-solid fa-blog",
     "color": "78BEB3"
   },
   {
