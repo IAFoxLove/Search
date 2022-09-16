@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AFoxHome",
+    "url": "https://i.afox.love",
+    "icon": "fab fa-pinterest",
+    "color": "89A9D1"
+  },
+  {
+    "name": "AFoxBloG",
+    "url": "https://blog.afox.love",
+    "icon": "fab fa-airbnb",
+    "color": "78BEB3"
+  },
+  {
+    "name": "极狐云盘",
+    "url": "https://cloud.afox.love",
+    "icon": "fab fa-skyatlas",
+    "color": "96D189"
+  },
+  {
+    "name": "收录申请",
+    "url": "https://blog.afox.love/s/afoxs",
+    "icon": "fab fa-angellist",
+    "color": "915EA1"
+  }
+]

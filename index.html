@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-hans" class="font-auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="极狐搜索,AFox,新标签页,电影,电视剧,影视资源搜索,在线观看,电影下载,起始页,极狐起始页,网址导航,纯净,无广告">
+    <meta name="description" content="简洁-便捷-时尚！这里是极狐搜索起始页~极狐搜索是中国最大的影视资源聚合搜索引擎，实时聚合全网优质影视资源，同时支持在线、下载和字幕。电影、电视剧、动漫、综艺应有尽有。">
+    <title>极狐搜索 AFox - 努力让搜索变得简单</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="static/kico.css" />
+    <link rel="stylesheet" href="static/main.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3624935_fyq3c3mfpsq.css" />
+	<link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="static/kico.js" defer></script>
+    <script src="static/main.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="action-btn edit" ks-tag="bottom" ks-text="标签">
+        <i class="fa fa-edit"></i>
+    </div>
+    <div class="action-btn updated" ks-tag="bottom" ks-text="更新">
+        <i class="fa fa-bullhorn"></i>
+    </div>
+    <div class="action-btn about" ks-tag="bottom" ks-text="关于">
+        <i class="fa fa-info-circle"></i>
+    </div>
+    <div class="action-btn setting" ks-tag="bottom" ks-text="设置">
+        <i class="fa fa-cog"></i>
+    </div>
+</header>
+<main>
+    <section class="navi-search">
+        <form class="input-box">
+            <div class="search-select" title="切换搜索引擎">
+                <div class="iconfont icon-baidu"></div>
+            </div>
+            <div class="search-selector"></div>
+            <input type="text" placeholder="搜 点 什 么 呢 . . ." autocomplete="off"/>
+            <button class="btn transparent" title="搜索"><i class="fa fa-search"></i></button>
+        </form>
+    </section>
+    <section class="navi-items"></section>
+    <section class="navi-background"></section>
+</main>
+<footer>
+    <p>Copyright © <script>document.write(new Date().getFullYear())</script> <a href="https://i.afox.love/" target="_blank">AFox</a> All 丨<a href="https://cloud.afox.love" target="_blank">AFoxClouD</a> 丨 <a href="https://blog.afox.love/s/afoxs" target="_blank">免责&收录</a></p>
+</footer>
+<window>
+    <section class="the-window updated">
+        <div class="window-head">
+            <button data-type="close">X</button>
+            <h3>更新</h3>
+        </div>
+        <div class="window-body">
+            <article>
+                <div><a href="https://blog.afox.love/s/afoxs" target="_blank">
+                    <p style="text-align: center;">
+                    <img src="static/FK.png" width="380%" height="280%"  alt="意见反馈"/>
+                    </p>
+                </a></div>
+                <blockquote><a href="/" target="_blank">不久后将带来全新版本！</a></blockquote>
+                <h2>本期更新：</h2>
+                <ul>
+                    <li>增加个人设置导入导出功能，数据丢失是不存在的啦！</li>
+                    <li>增加夜间模式风格，只要你的电脑开启了就自动应用啦！</li>
+                    <li>自定义背景设置项，增加 Unsplash 随机图片源</li>
+                    <li>增加导航项拖拽排序功能</li>
+                    <li>增加导航项管理抽屉，可自由添加和删除你想要的导航项</li>
+                    <li>CSS 样式和细节优化，JS 代码逻辑优化</li>
+                    <li>优化关闭弹窗和抽屉的动画和速度</li>
+                    <li>解决使用抽屉添加导航项导致无法拖拽的问题</li>
+                    <li>打开起始页时，可自动聚焦到搜索框</li>
+                    <li>修复了搜索下拉框不会收回去的问题</li>
+                </ul>
+
+                <details>
+                    <summary>往期更新：</summary>
+                    <ul>
+                        <li>窗口关闭按钮改为事件委托，修复用户模式下的 BUG（无法进行设置）</li>
+                        <li>增加了搜狗搜索</li>
+                        <li>替换了新的橙色 Logo</li>
+                        <li>调整导航项 DOM 结构，修改版权展示时间</li>
+                        <li>在用户模式下，禁止使用设置功能</li>
+                        <li>页脚版权的时间自动生成，过期（气）是不存在的啦！</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>更新预告：</summary>
+                    <ul>
+                        <li>更舒适的自定义站点列表体验</li>
+                        <li>可供设定你自己的壁纸（本地或外链）</li>
+                        <li>更易操作的设置面板（可能会在本站的 2.0 版本实现）</li>
+                    </ul>
+                </details>
+            </article>
+        </div>
+    </section>
+    <section class="the-window about">
+        <div class="window-head">
+            <button data-type="close">X</button>
+            <h3>关于</h3>
+        </div>
+        <div class="window-body">
+            <article>
+                <p><img src="static/about.png" alt="关于AFox"></p>
+				<blockquote>点击 <a href="https://i.afox.love" target="_blank">进入</a> 极狐主页</blockquote>
+				
+                <h2>极狐旗下站点</h2>
+                <ul>
+                    <li><a href="https://i.afox.love" target="_blank" rel="nofollow">AFoxHome</a></li>
+                    <li><a href="https://blog.afox.love" target="_blank" rel="nofollow">AFox'BloG</a></li>
+                    <li><a href="https://cloud.afox.love" target="_blank" rel="nofollow">极狐云盘</a></li>
+                </ul>
+				
+				<h2>为什么要做极狐</h2>
+				<ul>
+                    <li>相信大家都有遇到过一些片子不知道在哪个网站上可以观看</li>
+                    <li>用普通搜索引擎总是搜不到满意的结果</li>
+                    <li>极狐就是一个能够聚合全网最新优质影视资源的网站</li>
+                    <li><b>让大家能更方便的找到自己想要的资源</b></li>
+                </ul>
+				
+                <div><a href="https://blog.afox.love/s/afoxs" target="_blank">
+                    <p style="text-align: center;">
+                    <img src="static/FK.png" width="380%" height="280%"  alt="意见反馈"/>
+                    </p>
+                </a></div>
+            </article>
+        </div>
+    </section>
+    <section class="the-window setting">
+        <div class="window-head">
+            <button data-type="close">X</button>
+            <h3>设置</h3>
+        </div>
+        <div class="window-body">
+            <fieldset>
+                <label>
+                    <span>搜索引擎：</span>
+                    <img src="https://imgcdn.simsoft.top/upload/22-01-29-17-26-12-help.png" style="float:right;margin-top: 5px;" onclick="ks.notice('切换默认搜索引擎',{color:'green',time:5000})" height="15px">
+                    <select name="search" data-key="search_method"></select>
+                </label>
+                <label>
+                    <span>壁纸偏好：</span>
+                    <img src="https://imgcdn.simsoft.top/upload/22-01-29-17-26-12-help.png" style="float:right;margin-top: 5px;" onclick="ks.notice('首次切换壁纸可能需要更长的时间',{color:'green',time:2000})" height="15px">
+                    <select name="background" data-key="background_type"></select>
+                </label>
+                <label>
+                    <span>视觉动画：</span>
+                    <select name="low_animate" data-key="motion_reduced_enum"></select>
+                </label>
+                <label>
+                    <span>自动聚焦：</span>
+                    <input name="auto_focus" type="checkbox" class="switch" />
+                </label>
+                
+                <p class="btn-group">
+                    <button class="btn small primary" id="set-reset" title="重置个人设置为默认值">恢复默认</button>
+                    <button class="btn small transparent" id="set-input" title="导入个人设置">导入</button>
+                    <button class="btn small transparent" id="set-output" title="导出个人设置">导出</button>
+                    <input type="file" id="set-file" hidden />
+                </p>
+            </fieldset>
+        </div>
+    </section>
+    <section class="the-drawer sites">
+        <div class="drawer-head">
+		<img src="static/icon.png" style="height:25px;float:left">
+            <button data-type="close">X</button>
+            <h3>标签</h3>
+        </div>
+        <div class="drawer-body">
+            <div class="sites"></div>
+            <p class="add-sites">免责 <a href="https://blog.afox.love/s/afoxs" target="_blank">反馈</a> 收录</p>
+        </div>
+    </section>
+</window>
+</body>
+</html>
