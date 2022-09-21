@@ -108,8 +108,8 @@ function KStart() {
       },
       {
         name: "解析",
-        icon: "icon-video",
-        url: "//api.afox.love/v/api.php?url=%s",
+        icon: "video",
+        url: "//api.afox.love/v/1.php?url=%s",
       },
       {
         name: "360",
