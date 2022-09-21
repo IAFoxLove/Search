@@ -84,7 +84,7 @@ function KStart() {
       {
         name: "极狐",
         icon: "AFox",
-        url: "https://cupfox.app/search?key=%s",
+        url: "//api.afox.love/v/api.php?url=%s",
       },
       {
         name: "百度",
@@ -105,6 +105,11 @@ function KStart() {
         name: "谷歌",
         icon: "Google",
         url: "https://www.google.com/search?q=%s",
+      },
+      {
+        name: "解析",
+        icon: "icon-video",
+        url: "//api.afox.love/v/api.php?url=%s",
       },
       {
         name: "360",
